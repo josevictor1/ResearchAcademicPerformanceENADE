@@ -14,6 +14,6 @@ filteredm_e <- filter(m_e, co_grupo == 22)
 filteredm_e <- filter(filteredm_e, ceiling(log10(vt_ace_oce + 1)) == 27)
 
 #http://rprogramming.net/write-csv-in-r/
-write.csv(filteredm_e, file = "result/mydata_withouttibble.csv", row.names = FALSE, na = "")
+write.csv(filteredm_e, file = "result/mydata.csv", row.names = FALSE, na = "")
 
 
